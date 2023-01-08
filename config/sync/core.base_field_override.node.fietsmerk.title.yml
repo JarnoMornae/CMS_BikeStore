@@ -1,0 +1,18 @@
+uuid: f4576993-cd2f-4207-9157-c00fc7a23138
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fietsmerk
+id: node.fietsmerk.title
+field_name: title
+entity_type: node
+bundle: fietsmerk
+label: Fietsmerk
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

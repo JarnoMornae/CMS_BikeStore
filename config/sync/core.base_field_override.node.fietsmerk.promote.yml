@@ -1,0 +1,22 @@
+uuid: 9a55ec41-e829-4e90-97c2-d34310b68c96
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fietsmerk
+id: node.fietsmerk.promote
+field_name: promote
+entity_type: node
+bundle: fietsmerk
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

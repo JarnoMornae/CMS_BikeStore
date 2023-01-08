@@ -1,0 +1,24 @@
+uuid: 781da062-ce31-48d5-90f6-5271e147db62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_openingsuren
+    - node.type.winkel
+  module:
+    - text
+id: node.winkel.field_openingsuren
+field_name: field_openingsuren
+entity_type: node
+bundle: winkel
+label: Openingsuren
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<ul><li>Maandag:&nbsp;</li><li>Dinsdag:&nbsp;</li><li>Woensdag:&nbsp;</li><li>Donderdag:&nbsp;</li><li>Vrijdag:&nbsp;</li><li>Zaterdag:&nbsp;</li><li>Zondag:</li></ul>'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

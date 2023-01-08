@@ -1,0 +1,19 @@
+uuid: 354a740a-cd74-426e-9a9a-7f6527eba3f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_linkwinkelpagina
+field_name: field_linkwinkelpagina
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

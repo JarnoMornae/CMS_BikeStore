@@ -1,0 +1,38 @@
+uuid: 11f5e294-1bc2-41b7-b2c5-735de74f6ee1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fietsmerk.body
+    - field.field.node.fietsmerk.field_fietssoort
+    - field.field.node.fietsmerk.field_merk
+    - field.field.node.fietsmerk.field_merk_img
+    - field.field.node.fietsmerk.field_merklink
+    - node.type.fietsmerk
+  module:
+    - text
+    - user
+id: node.fietsmerk.teaser
+targetEntityType: node
+bundle: fietsmerk
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_fietssoort: true
+  field_merk: true
+  field_merk_img: true
+  field_merklink: true

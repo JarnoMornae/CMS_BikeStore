@@ -1,0 +1,23 @@
+uuid: 168c9d09-1ed4-47cd-8470-4aa26903b9ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fietsmerk
+  module:
+    - text
+id: node.fietsmerk.body
+field_name: body
+entity_type: node
+bundle: fietsmerk
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

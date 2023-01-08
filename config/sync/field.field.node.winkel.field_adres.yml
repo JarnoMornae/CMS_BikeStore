@@ -1,0 +1,21 @@
+uuid: 6b8019b5-f396-4cf5-b1ee-a03f30aeb08f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_adres
+    - node.type.winkel
+  module:
+    - text
+id: node.winkel.field_adres
+field_name: field_adres
+entity_type: node
+bundle: winkel
+label: adres
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

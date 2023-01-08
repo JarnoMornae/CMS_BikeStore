@@ -1,0 +1,19 @@
+uuid: 7d964618-9b6d-41ba-97ee-985461364680
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_openingsuren
+field_name: field_openingsuren
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

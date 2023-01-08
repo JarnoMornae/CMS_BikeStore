@@ -1,0 +1,17 @@
+uuid: 89e8c37e-98da-415b-bbf8-2eefdb1af276
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Fietsmerk
+type: fietsmerk
+description: 'Fietsmerk content'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

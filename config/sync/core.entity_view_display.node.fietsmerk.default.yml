@@ -1,0 +1,73 @@
+uuid: af73f1e9-2a3a-4717-8c15-7edda2bbbac8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fietsmerk.body
+    - field.field.node.fietsmerk.field_fietssoort
+    - field.field.node.fietsmerk.field_merk
+    - field.field.node.fietsmerk.field_merk_img
+    - field.field.node.fietsmerk.field_merklink
+    - node.type.fietsmerk
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.fietsmerk.default
+targetEntityType: node
+bundle: fietsmerk
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_fietssoort:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_merk:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_merk_img:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_merklink:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

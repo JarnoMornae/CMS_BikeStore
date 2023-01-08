@@ -1,0 +1,55 @@
+uuid: e6998c08-e471-4b7a-b6b9-31c2c7a714b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.winkel.body
+    - field.field.node.winkel.field_adres
+    - field.field.node.winkel.field_linkwinkelpagina
+    - field.field.node.winkel.field_openingsuren
+    - field.field.node.winkel.field_winkel_img
+    - node.type.winkel
+  module:
+    - image
+    - text
+    - user
+id: node.winkel.default
+targetEntityType: node
+bundle: winkel
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_adres:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_openingsuren:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_winkel_img:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_linkwinkelpagina: true
+  links: true

@@ -1,0 +1,29 @@
+uuid: d533dc02-99f8-4ad6-9a01-9b0feb6ddec6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fietssoort
+    - node.type.fietsmerk
+    - taxonomy.vocabulary.fiets_categorie_
+id: node.fietsmerk.field_fietssoort
+field_name: field_fietssoort
+entity_type: node
+bundle: fietsmerk
+label: 'fietssoort specialisatie'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fiets_categorie_: fiets_categorie_
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

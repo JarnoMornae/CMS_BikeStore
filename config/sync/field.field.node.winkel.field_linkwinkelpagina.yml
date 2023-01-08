@@ -1,0 +1,23 @@
+uuid: 8c0b25be-a886-4901-acad-26f32630f9b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_linkwinkelpagina
+    - node.type.winkel
+  module:
+    - link
+id: node.winkel.field_linkwinkelpagina
+field_name: field_linkwinkelpagina
+entity_type: node
+bundle: winkel
+label: LinkWinkelPagina
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

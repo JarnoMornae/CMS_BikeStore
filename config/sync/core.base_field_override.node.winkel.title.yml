@@ -1,0 +1,18 @@
+uuid: 07d9bd40-f417-4a2a-924c-bc3005d0150f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.winkel
+id: node.winkel.title
+field_name: title
+entity_type: node
+bundle: winkel
+label: 'Winkel:'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

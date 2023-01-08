@@ -1,0 +1,8 @@
+uuid: 8f6b9a40-532f-4126-942d-472581a0facd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Fiets merk'
+vid: fiets_merk
+description: 'Alle fietsmerken die de winkel aanbied. '
+weight: 0

@@ -1,0 +1,90 @@
+uuid: 83470aba-f9a2-4df0-bafc-1b7029246e3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.winkel.body
+    - field.field.node.winkel.field_adres
+    - field.field.node.winkel.field_linkwinkelpagina
+    - field.field.node.winkel.field_openingsuren
+    - field.field.node.winkel.field_winkel_img
+    - image.style.thumbnail
+    - node.type.winkel
+  module:
+    - image
+    - link
+    - path
+    - text
+id: node.winkel.default
+targetEntityType: node
+bundle: winkel
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 4
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_adres:
+    type: text_textfield
+    weight: 6
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_linkwinkelpagina:
+    type: link_default
+    weight: 26
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_openingsuren:
+    type: text_textarea
+    weight: 27
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_winkel_img:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  promote: true
+  sticky: true
+  uid: true

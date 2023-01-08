@@ -1,0 +1,37 @@
+uuid: 8c79c696-069f-4d60-abc1-c55eaeefbf1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.winkel.body
+    - field.field.node.winkel.field_adres
+    - field.field.node.winkel.field_linkwinkelpagina
+    - field.field.node.winkel.field_openingsuren
+    - field.field.node.winkel.field_winkel_img
+    - node.type.winkel
+  module:
+    - image_link_formatter
+    - user
+id: node.winkel.teaser
+targetEntityType: node
+bundle: winkel
+mode: teaser
+content:
+  field_winkel_img:
+    type: image_link_formatter
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: field_linkwinkelpagina
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_adres: true
+  field_linkwinkelpagina: true
+  field_openingsuren: true
+  links: true
