@@ -1,0 +1,22 @@
+uuid: 590b8015-0af5-41ef-b682-275c1ce59e74
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fiets_img_s.field_img_1
+    - node.type.fiets_img_s
+  module:
+    - user
+id: node.fiets_img_s.teaser
+targetEntityType: node
+bundle: fiets_img_s
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_img_1: true

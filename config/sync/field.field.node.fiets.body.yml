@@ -1,0 +1,23 @@
+uuid: af9fabd7-a063-449d-b8ec-b9d235ffa36e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fiets
+  module:
+    - text
+id: node.fiets.body
+field_name: body
+entity_type: node
+bundle: fiets
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

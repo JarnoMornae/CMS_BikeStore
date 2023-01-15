@@ -1,0 +1,21 @@
+uuid: 354c9df3-68c6-4afd-b119-26deafa9a31c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_onderdelen
+    - node.type.fiets
+  module:
+    - text
+id: node.fiets.field_onderdelen
+field_name: field_onderdelen
+entity_type: node
+bundle: fiets
+label: onderdelen
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

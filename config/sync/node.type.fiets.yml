@@ -1,0 +1,17 @@
+uuid: b5bdbd1a-0e5b-4ac2-aa53-8dc5472021e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Fiets
+type: fiets
+description: 'Dit is de cont. type van een fiets. '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

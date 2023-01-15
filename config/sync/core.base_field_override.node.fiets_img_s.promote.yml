@@ -1,0 +1,22 @@
+uuid: 647b8bb3-2017-4df5-99fe-6300e5e92e8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fiets_img_s
+id: node.fiets_img_s.promote
+field_name: promote
+entity_type: node
+bundle: fiets_img_s
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

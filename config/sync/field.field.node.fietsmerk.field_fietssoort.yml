@@ -10,7 +10,7 @@ id: node.fietsmerk.field_fietssoort
 field_name: field_fietssoort
 entity_type: node
 bundle: fietsmerk
-label: 'fietssoort specialisatie'
+label: 'fietssoort aanbod'
 description: ''
 required: true
 translatable: false

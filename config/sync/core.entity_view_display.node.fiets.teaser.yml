@@ -1,0 +1,36 @@
+uuid: b4984a9a-9865-448b-b600-79397ffbafc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fiets.body
+    - field.field.node.fiets.field_fietssoort
+    - field.field.node.fiets.field_merk
+    - field.field.node.fiets.field_onderdelen
+    - node.type.fiets
+  module:
+    - text
+    - user
+id: node.fiets.teaser
+targetEntityType: node
+bundle: fiets
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_fietssoort: true
+  field_merk: true
+  field_onderdelen: true

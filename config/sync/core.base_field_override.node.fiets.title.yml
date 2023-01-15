@@ -1,0 +1,18 @@
+uuid: aa265863-4cd1-4f89-a1c0-53c78cfc48b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fiets
+id: node.fiets.title
+field_name: title
+entity_type: node
+bundle: fiets
+label: Fiets
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

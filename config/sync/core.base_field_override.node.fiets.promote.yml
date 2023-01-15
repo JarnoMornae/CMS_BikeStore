@@ -1,0 +1,22 @@
+uuid: eeda3e70-c0f5-45d4-8eca-add752a8a642
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fiets
+id: node.fiets.promote
+field_name: promote
+entity_type: node
+bundle: fiets
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

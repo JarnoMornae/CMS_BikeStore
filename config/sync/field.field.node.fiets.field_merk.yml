@@ -1,0 +1,29 @@
+uuid: 2c5227af-8da1-440b-8d43-566d9b869733
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_merk
+    - node.type.fiets
+    - taxonomy.vocabulary.fiets_merk
+id: node.fiets.field_merk
+field_name: field_merk
+entity_type: node
+bundle: fiets
+label: Merk
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fiets_merk: fiets_merk
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

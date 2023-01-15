@@ -1,0 +1,54 @@
+uuid: 46a08f68-a2a1-4275-90bb-eda2e0527933
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fiets.body
+    - field.field.node.fiets.field_fietssoort
+    - field.field.node.fiets.field_merk
+    - field.field.node.fiets.field_onderdelen
+    - node.type.fiets
+  module:
+    - text
+    - user
+id: node.fiets.default
+targetEntityType: node
+bundle: fiets
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_fietssoort:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_merk:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_onderdelen:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

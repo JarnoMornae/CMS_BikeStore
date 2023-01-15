@@ -1,0 +1,18 @@
+uuid: c8353579-aea7-4c89-b237-182cf70e8e09
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fiets_img_s
+id: node.fiets_img_s.title
+field_name: title
+entity_type: node
+bundle: fiets_img_s
+label: 'Fiets IMG''s'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
