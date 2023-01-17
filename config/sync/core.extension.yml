@@ -25,6 +25,8 @@ module:
   history: 0
   image: 0
   image_link_formatter: 0
+  image_popup: 0
+  libraries: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
@@ -43,6 +45,8 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_slideshow: 0
+  views_slideshow_cycle: 0
   views_ui: 0
   views: 10
   standard: 1000

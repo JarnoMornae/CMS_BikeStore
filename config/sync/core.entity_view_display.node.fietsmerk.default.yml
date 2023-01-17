@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.fietsmerk.field_merk
     - field.field.node.fietsmerk.field_merk_img
     - field.field.node.fietsmerk.field_merklink
+    - image.style.wide
     - node.type.fietsmerk
   module:
     - image
@@ -24,7 +25,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
   field_fietssoort:
     type: entity_reference_label
@@ -32,7 +33,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 103
+    weight: 3
     region: content
   field_merk:
     type: entity_reference_label
@@ -40,18 +41,18 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 104
+    weight: 4
     region: content
   field_merk_img:
     type: image
-    label: above
+    label: visually_hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: wide
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 102
+    weight: 1
     region: content
   field_merklink:
     type: link
@@ -63,11 +64,11 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 105
+    weight: 5
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden: {  }

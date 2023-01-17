@@ -21,6 +21,9 @@
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
         "drupal/image_link_formatter": "2.1",
+        "drupal/image_popup": "2.0",
+        "drupal/libraries": "4.0",
+        "drupal/views_slideshow": "5.0",
         "drush/drush": "^11.4"
     },
     "conflict": {
