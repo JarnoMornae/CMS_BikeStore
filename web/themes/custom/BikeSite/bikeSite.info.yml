@@ -1,0 +1,26 @@
+name: biketheme
+type: theme
+description: Dit thema werd ontworpen voor de fietsenwinkel
+core_version_requirement: ^8 || ^9
+base theme: classy
+screenshot: screenshot.png
+
+regions: 
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  footer: 'Footer'
+  breadcrumb: 'Breadcrumb'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+logo: logo.png
+
+libraries: 
+  - bikeSite/global-css
+  

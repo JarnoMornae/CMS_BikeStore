@@ -1,0 +1,75 @@
+
+/**
+ * algmene opmaak
+ */
+ body{
+  color: black;
+  background-color: rgb(255, 252, 235);
+  font-family: 'nunito', Arial, Helvetica, sans-serif;  
+  padding: 10px; 
+  margin: 10px;
+}
+
+ /**
+ * algmene opmaak
+ */
+
+#block-bikesite-main-menu{
+    background-color: rgb(104, 104, 202);
+    padding: 20px;  
+}
+#block-bikesite-main-menu a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#block-bikesite-main-menu .menu-item{
+  display: inline ;
+  padding-left: 10%;
+}
+
+#block-bikesite-account-menu{
+  background-color: white;
+  border-radius: 25px;
+  border: 20px black;
+  float: right;
+  margin-top: -150px;
+  margin-right: 10px;
+  padding: 10px;
+}
+#block-bikesite-account-menu a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.site-logo img{
+  border-radius: 10px 100px / 120px;
+
+}
+#block-bikesite-site-branding{
+  background-color: rgba(46, 44, 44, 0.842);
+  position: relative;
+  margin-top: 0px;
+}
+.region-header{
+  background-color: cornsilk;
+}
+
+.tabs{
+  background-color: white;
+  border: 3px solid rgb(87, 87, 255);
+  border-radius: 20px;
+  margin: 15px;
+  padding: 10px;
+  
+}
+.tabs ul{
+  border: none;
+}
+.tabs a {
+  background-color: rgb(69, 69, 250);
+  color: white;
+  border-radius: 25px;
+}
+
+

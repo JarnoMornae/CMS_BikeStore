@@ -1,0 +1,27 @@
+uuid: f740fe80-67b6-4cc4-bac2-f63abe9adb03
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bikeSite
+_core:
+  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
+id: bikeSite_main_menu
+theme: bikeSite
+region: header
+weight: -3
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

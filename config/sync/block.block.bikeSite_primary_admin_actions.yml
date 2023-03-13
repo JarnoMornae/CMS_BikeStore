@@ -1,0 +1,20 @@
+uuid: a00c4c04-27ec-4e59-b9a7-5c83631e8cc5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bikeSite
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: bikeSite_primary_admin_actions
+theme: bikeSite
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

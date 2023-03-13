@@ -1,0 +1,22 @@
+uuid: b6cfcd09-51b6-45ee-b583-46e05fdc927e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bikeSite
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: bikeSite_primary_local_tasks
+theme: bikeSite
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

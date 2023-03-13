@@ -1,0 +1,29 @@
+uuid: 94673c35-b055-4364-aaf8-6fb422b8bdc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_5_nieuwste_fietsen
+  module:
+    - system
+    - views
+  theme:
+    - bikeSite
+id: bikeSite_views_block__top_5_nieuwste_fietsen_block_1
+theme: bikeSite
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:top_5_nieuwste_fietsen-block_1'
+settings:
+  id: 'views_block:top_5_nieuwste_fietsen-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '*/merk/*'

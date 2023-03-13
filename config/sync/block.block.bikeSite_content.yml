@@ -1,0 +1,22 @@
+uuid: d8af4633-141b-4f38-b545-1f9c1f024449
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bikeSite
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: bikeSite_content
+theme: bikeSite
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

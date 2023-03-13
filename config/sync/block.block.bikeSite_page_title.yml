@@ -1,0 +1,20 @@
+uuid: 95a4cd3c-d322-4255-860e-739febaf3785
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bikeSite
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: bikeSite_page_title
+theme: bikeSite
+region: highlighted
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: eb797270-a723-44bb-9d4b-10d36010b876
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bikeSite
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: bikeSite_powered
+theme: bikeSite
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
