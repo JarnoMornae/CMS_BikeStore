@@ -1,0 +1,6 @@
+name: Mailing List
+description: Zorgt ervoor dat verkopers mensen in een lijst kunnen ingeven om persoonlijke aanbiedingen en mails te ontvangen. 
+package: Personal pubs
+type: module
+version: 1.0
+core_version_requirement: ^9.4 || ^10

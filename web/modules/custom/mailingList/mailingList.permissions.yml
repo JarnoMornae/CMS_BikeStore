@@ -1,0 +1,6 @@
+view mailingList:
+  title: "View subs Form"
+  description: "View and submit the subs form"
+access mailingList:
+  title: "Access List of subs"
+  description: "View the report listing of all subs."

@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * webhook om pagina id te tonen en juiste variabelen te selecteren
+ */
+
+/**function mailingList_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+    \Drupal::messenger()->addMessage(t("The form id is @id", ['@id'=> $form_id]));
+    if($form_id =='node_winkel_edit_form'){
+        ksm($form);
+        $form['actions']['submit']['#value'] = (('opslaan aanpassing php code'));
+    }
+}*/

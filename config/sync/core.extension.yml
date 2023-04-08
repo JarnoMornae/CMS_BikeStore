@@ -15,6 +15,9 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  devel: 0
+  devel_generate: 0
+  devel_kint_extras: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -28,6 +31,7 @@ module:
   image_popup: 0
   libraries: 0
   link: 0
+  mailingList: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0

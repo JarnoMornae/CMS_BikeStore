@@ -20,6 +20,7 @@
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
+        "drupal/devel_kint_extras": "1.0",
         "drupal/image_link_formatter": "2.1",
         "drupal/image_popup": "2.0",
         "drupal/libraries": "4.0",
