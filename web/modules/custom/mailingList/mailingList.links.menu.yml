@@ -1,12 +1,12 @@
-mailingList.newpage:
+mailinglist.newpage:
   title: "Nieuwsbrief"
   description: "Link to the page mymodule created"
-  route_name: mailingList.form
+  route_name: mailinglist.form
   weight: 10
   menu_name: main
-mailingList.report:
+mailinglist.report:
   title: "List of subscriptions"
   description: "View listing of subscriptions"
-  route_name: "mailingList.report"
+  route_name: "mailinglist.report"
   parent: system.admin_reports
   weight: 0

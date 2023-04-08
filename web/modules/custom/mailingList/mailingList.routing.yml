@@ -1,14 +1,14 @@
-mailingList.form:
-  path: "/mailingListForm"
+mailinglist.form:
+  path: "/mailinglistForm"
   defaults:
-    _form: '\Drupal\mailingList\Form\mailingListForm'
+    _form: '\Drupal\mailinglist\Form\mailinglistForm'
     _title: "Reclame folder digitaal ontvangen"
   requirements:
     _permission: "View subs Form"
-mailingList.report:
-  path: "/admin/reports/mailingList"
+mailinglist.report:
+  path: "/admin/reports/mailinglist"
   defaults:
-    _controller: '\Drupal\mailingList\Controller\ReportController::report'
+    _controller: '\Drupal\mailinglist\Controller\ReportController::report'
     _title: "List of subs"
   requirements:
     _permission: "Access List of subs"

@@ -1,6 +1,6 @@
-view mailingList:
+view mailinglist:
   title: "View subs Form"
   description: "View and submit the subs form"
-access mailingList:
+access mailinglist:
   title: "Access List of subs"
   description: "View the report listing of all subs."

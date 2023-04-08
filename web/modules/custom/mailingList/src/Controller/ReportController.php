@@ -1,5 +1,5 @@
 <?php
-namespace Drupal\mailingList\Controller;
+namespace Drupal\mailinglist\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Database\Database;

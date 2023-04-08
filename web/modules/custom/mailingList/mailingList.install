@@ -1,7 +1,7 @@
 <?php
 
-function mailingList_schema() {
-  $schema['mailingList'] = array(
+function mailinglist_schema() {
+  $schema['mailinglist'] = array(
     'description' => 'Stores email, timestampand uid for a subscription',
     'fields' => array(
       'id' => array(

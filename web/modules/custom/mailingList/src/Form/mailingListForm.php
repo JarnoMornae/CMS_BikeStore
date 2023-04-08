@@ -1,12 +1,12 @@
 <?php
 
-namespace Drupal\mailingList\Form;
+namespace Drupal\mailinglist\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Database\Database;
 
-class mailingListForm extends FormBase {
+class mailinglistForm extends FormBase {
     public function getFormId() {
         return 'mailinglist_email_form'; 
     }
