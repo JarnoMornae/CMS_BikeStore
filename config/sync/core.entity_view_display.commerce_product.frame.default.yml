@@ -1,0 +1,97 @@
+uuid: 0c5ab6ed-f104-4b79-a45c-7131eccdbaac
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.frame
+    - field.field.commerce_product.frame.body
+    - field.field.commerce_product.frame.field_frameimg
+    - field.field.commerce_product.frame.field_linkproduct
+    - field.field.commerce_product.frame.field_merk
+    - field.field.commerce_product.frame.field_soort
+    - field.field.commerce_product.frame.field_soort_onderdeel
+    - image.style.medium
+  module:
+    - commerce_product
+    - image_link_formatter
+    - link
+    - text
+id: commerce_product.frame.default
+targetEntityType: commerce_product
+bundle: frame
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_frameimg:
+    type: image_link_formatter
+    label: above
+    settings:
+      image_style: medium
+      image_link: field_linkproduct
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_linkproduct:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: _blank
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_merk:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_soort:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_soort_onderdeel:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true

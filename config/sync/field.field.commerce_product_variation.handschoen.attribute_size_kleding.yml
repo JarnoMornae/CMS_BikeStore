@@ -1,0 +1,24 @@
+uuid: b24f6b5e-7ab2-4aa5-be61-64b035ba36ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.size_kleding
+    - commerce_product.commerce_product_variation_type.handschoen
+    - field.storage.commerce_product_variation.attribute_size_kleding
+id: commerce_product_variation.handschoen.attribute_size_kleding
+field_name: attribute_size_kleding
+entity_type: commerce_product_variation
+bundle: handschoen
+label: 'size kleding'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      - size_kleding
+field_type: entity_reference

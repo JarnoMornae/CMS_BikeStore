@@ -1,0 +1,19 @@
+uuid: 45ea6630-6915-4638-bd30-1a7c7dbbe845
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - link
+id: commerce_product.field_linkproduct
+field_name: field_linkproduct
+entity_type: commerce_product
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

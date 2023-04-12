@@ -1,0 +1,10 @@
+uuid: cbed3b90-2cc1-485a-9761-bac3ee389f9a
+langcode: en
+status: true
+dependencies: {  }
+id: frame
+label: 'Frame Var Type'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

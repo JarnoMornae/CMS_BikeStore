@@ -1,0 +1,30 @@
+uuid: 31e89ae4-f212-41a4-a4c4-c1681511ff13
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - file
+    - image
+id: commerce_product_variation.field_frameimg
+field_name: field_frameimg
+entity_type: commerce_product_variation
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: 'frame foto'
+    title: 'frame foto'
+    width: null
+    height: null
+module: image
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,8 @@
+uuid: 0ea5c166-7cda-4c0a-bbde-ab837d38893d
+langcode: en
+status: true
+dependencies: {  }
+name: fietsonderdeel
+vid: fietsonderdeel
+description: 'oplijsting van verschillende onderdelen voor verkoop'
+weight: 0

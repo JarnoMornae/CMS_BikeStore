@@ -17,12 +17,14 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.3",
+        "drupal/commerce": "^2.35",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
         "drupal/devel_kint_extras": "1.0",
         "drupal/image_link_formatter": "2.1",
         "drupal/image_popup": "2.0",
+        "drupal/inline_entity_form": "^1.0@RC",
         "drupal/libraries": "4.0",
         "drupal/views_slideshow": "5.0",
         "drush/drush": "^11.4"

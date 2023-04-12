@@ -1,0 +1,29 @@
+uuid: a63d31dd-e3ef-4822-aefa-686bf5345b7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.frame
+    - field.storage.commerce_product.field_soort_onderdeel
+    - taxonomy.vocabulary.fietsonderdeel
+id: commerce_product.frame.field_soort_onderdeel
+field_name: field_soort_onderdeel
+entity_type: commerce_product
+bundle: frame
+label: 'soort onderdeel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fietsonderdeel: fietsonderdeel
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

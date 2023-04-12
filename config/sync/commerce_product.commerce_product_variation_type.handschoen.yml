@@ -1,0 +1,10 @@
+uuid: 580da5d2-41e3-4350-b6f5-d3183e42036a
+langcode: en
+status: true
+dependencies: {  }
+id: handschoen
+label: 'handschoen var type'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

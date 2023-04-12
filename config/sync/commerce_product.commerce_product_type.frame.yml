@@ -1,0 +1,15 @@
+uuid: a644b8bd-78f5-4618-b288-4dd1bcfa74bc
+langcode: en
+status: true
+dependencies: {  }
+id: frame
+label: frame
+traits: {  }
+locked: false
+description: ''
+variationType: frame
+variationTypes:
+  - frame
+  - frame_met_suspension
+multipleVariations: true
+injectVariationFields: true

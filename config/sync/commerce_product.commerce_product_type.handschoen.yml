@@ -1,0 +1,14 @@
+uuid: 3f4fb269-da83-43ce-852d-20ad472e2b5f
+langcode: en
+status: true
+dependencies: {  }
+id: handschoen
+label: handschoen
+traits: {  }
+locked: false
+description: ''
+variationType: handschoen
+variationTypes:
+  - handschoen
+multipleVariations: true
+injectVariationFields: true

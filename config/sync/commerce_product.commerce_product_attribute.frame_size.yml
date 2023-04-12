@@ -1,0 +1,7 @@
+uuid: dc2922d4-8147-484b-ad9f-35d2f90aa338
+langcode: en
+status: true
+dependencies: {  }
+id: frame_size
+label: 'frame size'
+elementType: select

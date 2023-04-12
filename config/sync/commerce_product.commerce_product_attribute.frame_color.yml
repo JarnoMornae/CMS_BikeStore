@@ -1,0 +1,7 @@
+uuid: 82e18a6f-f9fb-4ff5-9806-90cdaef3b134
+langcode: en
+status: true
+dependencies: {  }
+id: frame_color
+label: color
+elementType: select

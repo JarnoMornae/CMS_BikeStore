@@ -1,0 +1,7 @@
+uuid: 8c122e22-e24f-4c47-a934-8ef52ae2fd22
+langcode: en
+status: true
+dependencies: {  }
+id: size_kleding
+label: 'size kleding'
+elementType: select
