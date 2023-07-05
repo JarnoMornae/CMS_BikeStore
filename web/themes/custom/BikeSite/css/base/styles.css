@@ -36,11 +36,13 @@
   margin-top: -150px;
   margin-right: 10px;
   padding: 10px;
+  position: relative;
 }
 #block-bikesite-account-menu a{
   text-decoration: none;
   text-transform: uppercase;
   color: black;
+  
 }
 .site-logo img{
   border-radius: 10px 100px / 120px;
@@ -72,4 +74,16 @@
   border-radius: 25px;
 }
 
-
+.views-row{
+  border-radius: 25px;
+  border: groove;
+  padding: 10px;
+  float: left;
+  margin: 4px;
+  background: white;
+  font-weight: bold;
+  color: rgb(104, 104, 202);
+}
+.layout-content{
+  border: groove ;
+}
