@@ -17,7 +17,7 @@ mode: default
 content:
   field_frameimg:
     type: image
-    label: above
+    label: visually_hidden
     settings:
       image_link: ''
       image_style: ''

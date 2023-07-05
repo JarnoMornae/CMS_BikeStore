@@ -10,11 +10,8 @@ dependencies:
     - field.field.commerce_product.frame.field_merk
     - field.field.commerce_product.frame.field_soort
     - field.field.commerce_product.frame.field_soort_onderdeel
-    - image.style.medium
   module:
     - commerce_product
-    - image_link_formatter
-    - link
     - text
 id: commerce_product.frame.default
 targetEntityType: commerce_product
@@ -26,54 +23,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 11
-    region: content
-  field_frameimg:
-    type: image_link_formatter
-    label: above
-    settings:
-      image_style: medium
-      image_link: field_linkproduct
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 12
-    region: content
-  field_linkproduct:
-    type: link
-    label: hidden
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: '0'
-      target: _blank
-    third_party_settings: {  }
-    weight: 13
-    region: content
-  field_merk:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 14
-    region: content
-  field_soort:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 15
-    region: content
-  field_soort_onderdeel:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 16
+    weight: 2
     region: content
   title:
     type: string
@@ -81,7 +31,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: -5
+    weight: 0
     region: content
   variations:
     type: commerce_add_to_cart
@@ -89,9 +39,14 @@ content:
     settings:
       combine: true
     third_party_settings: {  }
-    weight: 10
+    weight: 1
     region: content
 hidden:
   created: true
+  field_frameimg: true
+  field_linkproduct: true
+  field_merk: true
+  field_soort: true
+  field_soort_onderdeel: true
   stores: true
   uid: true

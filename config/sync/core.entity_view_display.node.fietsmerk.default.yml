@@ -45,7 +45,7 @@ content:
     region: content
   field_merk_img:
     type: image
-    label: visually_hidden
+    label: hidden
     settings:
       image_link: ''
       image_style: wide

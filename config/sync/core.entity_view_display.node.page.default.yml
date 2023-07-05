@@ -26,7 +26,7 @@ content:
     region: content
   field_page_picture:
     type: image
-    label: inline
+    label: hidden
     settings:
       image_link: ''
       image_style: ''

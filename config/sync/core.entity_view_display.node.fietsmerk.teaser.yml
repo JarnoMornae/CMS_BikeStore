@@ -20,7 +20,7 @@ mode: teaser
 content:
   field_merk_img:
     type: image_link_formatter
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: field_merklink
