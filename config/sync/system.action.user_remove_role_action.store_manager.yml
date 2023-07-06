@@ -1,0 +1,14 @@
+uuid: a93ce0c0-e4bf-41ec-a0e7-3b624c47bf3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.store_manager
+  module:
+    - user
+id: user_remove_role_action.store_manager
+label: 'Remove the store manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: store_manager

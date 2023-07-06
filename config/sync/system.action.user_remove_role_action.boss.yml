@@ -1,0 +1,14 @@
+uuid: 9e23478b-aa29-4df5-b3ab-15a21e1e9cd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.boss
+  module:
+    - user
+id: user_remove_role_action.boss
+label: 'Remove the boss role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: boss

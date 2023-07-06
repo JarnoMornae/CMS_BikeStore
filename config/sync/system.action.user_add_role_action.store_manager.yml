@@ -1,0 +1,14 @@
+uuid: b9aced6b-e4e2-4031-8e5b-7bd01290c72e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.store_manager
+  module:
+    - user
+id: user_add_role_action.store_manager
+label: 'Add the store manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: store_manager

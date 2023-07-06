@@ -1,0 +1,14 @@
+uuid: 29ee1184-a267-4e6c-a31d-3abb445b331f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.boss
+  module:
+    - user
+id: user_add_role_action.boss
+label: 'Add the boss role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: boss

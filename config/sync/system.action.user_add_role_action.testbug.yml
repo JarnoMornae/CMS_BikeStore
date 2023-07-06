@@ -1,0 +1,14 @@
+uuid: b02bc980-f768-4f4c-b7ec-43ca57fc26a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.testbug
+  module:
+    - user
+id: user_add_role_action.testbug
+label: 'Add the testbug role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: testbug
